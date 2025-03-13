@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="setup.css">
+    <title>Meet Kavad</title>
+
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7TXBGL5EDY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7TXBGL5EDY');
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logooo-removebg-preview.png" alt="logo-image">
+            <p class="h5 bold"> Suvrat Bajpai</p>
+        </div>
+        <nav id="my-nav">
+          <a href="#about" class=" h5 semibold">About</a>
+          <a href="#skills" class=" h5 semibold">Skills</a>
+          <a href="#projects" class=" h5 semibold">Project</a>
+          <a href="#contacts" class=" h5 semibold">Contact</a>
+        </nav>
+        <div>
+            <a href="SuvratBajpai_Resume.pdf" download="resume.pdf" target="_blank" class="h5 semibold resume-button">Resume<img src="images/download.png" alt="download-image" class="download-image"/></a>
+        </div>
+        <a href="javascript:void(0);" class="hamburger-menu-icon" onclick="toggleBar()">
+            <img class="menu-image"src="images/menu.png" alt="hamburger-menu-icon">
+        </a>
+        
+    </header>
+
+<!--  navbar for mobile screen -->
+
+    <div id="my-mobile-nav">
+        <a href="#about" class=" h5 semibold">About</a>
+        <a href="#skills" class=" h5 semibold">Skills</a>
+        <!-- <a href="#projects" class=" h5 semibold">Achievements</a> -->
+        <a href="#projectss" class=" h5 semibold">Project</a>
+        <a href="#contacts" class=" h5 semibold">Contact</a>
+        <a href="resume.pdf" download="resume.pdf" target="_blank" class="h5 semibold">Resume</a>
+
+    </div>
+
+    <script>
+        function toggleBar() {
+          var x = document.getElementById("my-mobile-nav");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+
+<!-- --------- -->
+
+
+    <section class="poster" id="poster">
+        <div class="poster-image p2 regular">
+            <img src="images/man.png" alt="man-image" class="man-image">
+        </div>
+
+        <div class="poster-content">
+            <div class="poster-heading">
+                <p class="displaytext regular">
+                    Hello I'am <span class="extrabold">Suvrat Bajpai.</span> 
+                    <span class="extrabold">Data Science & AI/ML</span> <span class="outlined">Enthusiast</span>, 
+                    <span class="extrabold">Full Stack</span> <span class="outlined">Developer</span>, 
+                    <span class="regular">Based In</span> <span class="extrabold">India.</span>
+                </p>
+            </div>            
+            <div class="poster-text">
+               <p class="p2 regular"> Passionate and detail-oriented computer science student with a keen interest in solving real-world problems through innovative coding solutions. Eager to leverage my technical skills and enthusiasm for continuous learning in a dynamic and collaborative environment. </p>
+            </div>
+        </div>
+      
+        <div class="poster-contact">
+            <a href="https://www.linkedin.com/in/suvrat-bajpai-669973267/" target="_blank"><img src="images/linkedin.png" alt="linkedin-image"></a>
+            <a href="https://github.com/Suvratbajpai" target="_blank"><img src="images/github.png" alt="reddit-image"></a>
+            <a href="https://leetcode.com/u/insanelyBeyondU/" target="_blank"><img src="images/leetcode.png" alt="leetcode-image"></a>
+            <a href="https://www.geeksforgeeks.org/user/suvratbajpai/" target="_blank"><img class="large-logo" src="images\Adobe_Express_-_file-removebg-preview.png" alt="geeksforgeeks-image"></a>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+            <p class="heading regular displaytext">My <span class="extrabold">Skills</span></p>
+        <div class="skills-container h5 bold">
+            <div class="a-skill"> <img src="images/python.png" alt="python-image"> <p>Python</p> </div>
+            <div class="a-skill"> <img src="images/js.png" alt="js-image"> <p>Javascript</p></div>
+            <div class="a-skill"> <img src="images\java.webp" alt="java-image"> <p>Java</p></div>
+            <div class="a-skill"> <img src="images/git.png" alt="git-image"> <p>git</p></div>
+            <div class="a-skill"> <img src="images/mongodb.png" alt="mongodb-image"> <p>MongoDB</p></div>
+            <div class="a-skill"> <img src="images/reactjs.png" alt="react-image"> <p>react.js</p></div>
+            <div class="a-skill"> <img src="images/nodejs.png" alt="nodejs-image"> <p>node.js</p></div>
+            <div class="a-skill"> <img src="images/sql.png" alt="sql-image"> <p>SQL</p></div>
+            <div class="a-skill"> <img src="images/linux.png" alt="linux-image"> <p>linux</p></div>
+            <div class="a-skill sk-learn-image"> <img src="images/scikitlearn.png" alt="sk-image"> <p>Scikit learn</p></div>
+        </div>
+    </section>
+
+
+    <!-- Education -->
+    <section class="experience-background" id="experience">
+        <div class="experience">
+            
+            <div class="experience-heading">
+                <p class="heading regular displaytext">My <span class="extrabold">Education</span></p>
+            </div>
+
+            <div class="experience-container">
+                <div class="an-experience latest-experience">
+                    <div class="an-experience-company semibold">
+                        <div class="company-container">
+                            <img src="images/iiit-surat.png" alt="iiit-surat-image" class="iiit-image">
+                            <p class="company-name h4">CSE @Indian Institute of Information Technology Surat</p>
+                        </div>
+                        <p class="job-duration h6">Nov 2022 - Present</p>
+                    </div>
+                    <div class="an-experience-text p2 regular">
+                        <p>
+                            <i>CGPA:</i> <b> 8.26</b> /10.00
+                        </p>
+                        <p>
+                            I'm currently pursuing B.Tech. in <b>Computer Science and Engineering</b> at IIIT Surat, having completed five semesters. My coursework includes Data Structures and Algorithms, Operating Systems, Database Management Systems, Design and Analysis of Algorithms, Software Engineering, Computer Networks, Data Science, Cloud Computing, and Big Data Infrastructure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Achievments -->
+    <!-- <section class="experience-background" id="experience">
+        <div class="experience">
+            
+            <div class="experience-heading">
+                <p class="heading regular displaytext">My <span class="extrabold">Achievements</span></p>
+            </div>
+
+            <div class="experience-container">
+                <div class="an-experience latest-experience">
+                    <div class="an-experience-company semibold">
+                        <div class="company-container">
+                            <img src="images\iiitkgp.jpg" alt="banao-image" class="banao-image">
+                            <p class="company-name h4">Chrome Extension and node.js Developer @Banao Tech.</p>
+                        </div>
+                        <p class="job-duration h6">October 2024 - Present</p>
+                    </div>
+                    <div class="an-experience-text p2 regular">
+                        <p>
+                            I’m currently interning as a Chrome extension and Node.js developer at Banao Technologies, a subsidiary of ATGworld Network Pvt. Ltd. I am working on projects involving website and Instagram data scraping using Chrome extensions. In Node.js, I am building APIs, exploring Admin.js, and contributing to two dynamic projects. This experience is helping me enhance my backend development skills and apply them to create scalable, real-world solutions.
+                        </p>
+                    </div>
+                </div>
+              
+            </div>
+
+
+
+            <div class="experience-container">
+                <div class="an-experience latest-experience">
+                    <div class="an-experience-company semibold">
+                        <div class="company-container">
+                            <img src="images/gradeup.png" alt="gradeup-image" class="gradeup-image">
+                            <p class="company-name h4">Subject Matter Expert @Gradeup Assignments</p>
+                        </div>
+                        <p class="job-duration h6">May 2024 - Aug 2024</p>
+                    </div>
+                    <div class="an-experience-text p2 regular">
+                        <p>
+                            At Gradeup Assignments, I completed assignments related to my domain i.e. computer science, provided by the company, applying my knowledge in software engineering, computer networks, DBMS, and OOP. I achieved a 95% satisfaction rate from the QA team and improved clarity by 40% through thorough documentation, research, and analysis, ensuring 100% accuracy in references.
+                        </p>
+                    </div>
+                </div>
+              
+                
+            </div>
+
+            <div class="experience-container">
+                <div class="an-experience latest-experience">
+                    <div class="an-experience-company semibold">
+                        <div class="company-container">
+                            <img src="images/gdsc.png" alt="gdsc-image" class="gdsc-image">
+                            <p class="company-name h4">Junior Developer @GDSC IIIT Surat</p>
+                        </div>
+                        <p class="job-duration h6">June 2023 - Aug 2024</p>
+                    </div>
+                    <div class="an-experience-text p2 regular">
+                        <p>
+                            At GDSC IIIT Surat, I worked as a junior Developer by applying my full stack web development skills to create deployable web solutions for our Institute. As a junior developer, I volunteered at several technical events and contributed to the development of web applications, including a corporate crime website where I wrote Node.js backend code within a limited period of time.
+                        </p>
+                    </div>
+                </div>
+              
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <section class="project-background" id="projectss">
+        <div class="projects">
+            <div class="project-heading displaytext regular">My <span class="extrabold">Achievments</span></div>
+            <div class="project-container">
+                <div class="a-project">
+                    <img src="images\iiitkgp.jpg" alt="project1-image" class="project-image">
+                    <div class="project-content">
+                        <p class="project-number displaytext extrabold">01</p>
+                        <p class="a-project-heading h2 bold">NSSC-IIT KGP(2024)</p>
+                        <p class="project-text p2 regular">My Machine Learning Asteroid Classification Model got selected in top 15 amongst more than 300 teams participating nationwide.
+
+                        </p>
+                        <!-- <a href="https://github.com/meetkavad/spot-it" class="project-link" target="_blank" ><img src="images/redirect.png" alt="redirect-image" class="redirect-image"></a> -->
+                     </div> 
+                </div>
+
+                <div class="a-project second-project-div">
+                    <div class="project-content  second-project-content">
+                        <p class="project-number displaytext extrabold">02</p>
+                        <p class="a-project-heading h2 bold">Certified in DSA-Apna College</p>
+                        <p class="project-text p2 regular">Learned Data Structures and Web development by Apna college which was a 8 month extensive course teaching about different data structures and algorithmic ways to solve different problems. Moreover, it also taught me web development in MERN Stack.</p>
+                        <!-- <a href="https://github.com/meetkavad/Analyx" class="project-link" target="_blank"><img src="images/redirect.png" alt="redirect-image" class="redirect-image" ></a> -->
+                    </div> 
+                    <img src="images\Screenshot 2025-03-14 011244.png" alt="project2-image" class="project-image">
+
+                </div>
+
+                <!-- <div class="a-project">
+                    <img src="images/project3.png" alt="project3-image" class="project-image">
+                    <div class="project-content">
+                        <p class="project-number displaytext extrabold">03</p>
+                        <p class="a-project-heading h2 bold">WealthView</p>
+                        <p class="project-text p2 regular">WealthView is a personalized financial planner and management application that tracks income, expenses, goal planning, and quizzes, providing a comprehensive financial tracking solution. I developed the backend, handling data management and integration to support these features.</p>
+                        <a href="https://github.com/meetkavad/Wealth-View" class="project-link" target="_blank"><img src="images/redirect.png" alt="redirect-image" class="redirect-image"></a>
+                    </div>
+                </div> -->
+               
+            </div>
+        </div>
+
+    </section>
+    
+    <section class="about" id="about">
+            <img src="images/about.png" alt="man-image">
+            <div class="about-text">
+                <p class="displaytext regular about-heading">About <span class="extrabold">Me</span></p>
+                <div class="about-text-para regular p2">
+                    <p>I am a passionate Computer Science and Engineering student, currently pursuing B.Tech in CSE at IIIT Surat. I am fascinated by web development, machine learning, and computer vision, always eager to explore new technologies and create innovative solutions. Specializing in full-stack development with React.js and Node.js, I am enthusiastic about bringing digital products to life with clear, readable, and performant code.</p>
+                    <p>Although I couldn't secure a place in IIT through JEE Advanced, I have set my sights on excelling in the software industry to make meaningful contributions to the world of computer science.</p>
+                    <p> My programming journey began in 2022 when I started my first year in college with C language, which laid a strong foundation for my coding skills. Driven by my desire to develop useful and enjoyable projects, I created a terminal maze game with over 1000 lines of code during my first semester. Afterwards I delved into web development and am currently exploring machine learning and deep learning</p>
+                </div>
+
+            </div>
+    </section>
+
+    <section class="project-background" id="projects">
+        <div class="projects">
+            <div class="project-heading displaytext regular">My <span class="extrabold">Projects</span></div>
+            <div class="project-container">
+    
+                <div class="a-project">
+                    <img src="images/project1.png" alt="project1-image" class="project-image">
+                    <div class="project-content">
+                        <p class="project-number displaytext extrabold">01</p>
+                        <p class="a-project-heading h2 bold">StockNest-Trading platform</p>
+                        <p class="project-text p2 regular">
+                            Developed an interactive dashboard for stock profiles, holdings, and positions. Included detailed charts for real-time stock insights and enhanced user experience. Designed a user-friendly interface to simulate a stock trading platform.
+                        </p>
+                        <a href="https://github.com/Suvratbajpai/Stocknest" class="project-link" target="_blank">
+                            <img src="images/redirect.png" alt="redirect-image" class="redirect-image">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="a-project second-project-div">
+                    <div class="project-content second-project-content">
+                        <p class="project-number displaytext extrabold">02</p>
+                        <p class="a-project-heading h2 bold">Blogging Platform</p>
+                        <p class="project-text p2 regular">
+                            Developed a full-stack blogging platform with user authentication and post management. Enabled markdown-based content creation, commenting, and like functionalities. Designed a responsive UI for seamless user experience.
+                        </p>
+                        <a href="https://github.com/Suvratbajpai/BloggingWebsite-Django-" class="project-link" target="_blank">
+                            <img src="images/redirect.png" alt="redirect-image" class="redirect-image">
+                        </a>
+                    </div>
+                    <img src="images/project2.png" alt="project2-image" class="project-image">
+                </div>
+    
+                <div class="a-project">
+                    <img src="images/project3.png" alt="project3-image" class="project-image">
+                    <div class="project-content">
+                        <p class="project-number displaytext extrabold">03</p>
+                        <p class="a-project-heading h2 bold">Spring Fiesta Website 2024 (IIIT Surat)</p>
+                        <p class="project-text p2 regular">
+                            Collaborated with a team of 5 to build an interactive and visually appealing website for the annual college festival. Integrated event schedules, registration forms, and real-time announcements. Optimized UI/UX for responsiveness and smooth animations.
+                        </p>
+                        <a href="https://github.com/Suvratbajpai/springFiesta2k24" class="project-link" target="_blank">
+                            <img src="images/redirect.png" alt="redirect-image" class="redirect-image">
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="contacts" id="contacts">
+        <div class="contact-form">
+            <form action="mailto:meetkavad10@gmail.com" class="contact-form" id="contact-form" method="post" enctype="text/plain">
+                <input type="text" name="Name" id="" placeholder="Your Name">
+                <input type="email" name="Email" placeholder="Email">
+                <input type="text" name="Website" placeholder="Your Website (if exists)">
+                <textarea name="Message" id="" rows="5" charswidth="23" placeholder="Drop me a line, I’d love to hear from you.."></textarea>
+            </form>
+            <div class="contact-links">
+                <button type="submit" class="contact-button h5 semibold" form="contact-form" >Get in Touch</button>
+                <div class="contact-images">
+                    <a href="https://www.linkedin.com/in/suvrat-bajpai-669973267/" target="_blank"><img src="images/linkedin.png" alt="linkedin-image"></a>
+                    <a href="https://github.com/Suvratbajpai" target="_blank"><img src="images/github.png" alt="reddit-image"></a>
+                    <a href="https://leetcode.com/u/insanelyBeyondU/" target="_blank"><img src="images/leetcode.png" alt="leetcode-image"></a>
+                    <a href="https://www.geeksforgeeks.org/user/suvratbajpai/" target="_blank"><img class="large-logo" src="images\Adobe_Express_-_file-removebg-preview.png" alt="geeksforgeeks-image"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-text">
+            <p class="displaytext extrabold contact-heading">Let's <span class="outlined">talk</span> for</p>
+            <p class="displaytext extrabold contact-heading">Something Special</p>
+            <p class="p2 regular" style="color: #71717A;">I like to know new people, new stories and develop different point of views. Reach out to talk something geeky, something programmy..</p>
+            <p class="h5 semibold gmail my-contact"> <img src="images/email.png" alt="email-image">suvratbajpai7@gmail.com</p>
+            <p class=" h5 semibold phone-number my-contact"> <img src="images/whatsapp.png" alt="whatsapp-image">+91 9120318899</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="images\logooo-removebg-preview.png" alt="logo-image">
+            <p class="footer-name">Suvrat Bajpai</p>
+        </div>
+        <div class="footer-right">
+            <p>@<span id="year"></span> Personal</p>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
